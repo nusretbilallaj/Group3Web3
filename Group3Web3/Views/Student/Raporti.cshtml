@@ -1,0 +1,7 @@
+﻿@model List<Studenti>
+<h1>Gjate orarit te sotem jane regjistruar:</h1>
+
+@foreach (Studenti stu in Model)
+{
+    <h1>@stu.Emri @stu.Mbiemri</h1>
+}
